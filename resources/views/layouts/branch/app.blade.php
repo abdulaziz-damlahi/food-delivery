@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="{{asset('assets')}}/admin/vendor/icon-set/style.css">
     <!-- CSS Front Template -->
-    <link rel="stylesheet" href="{{asset('public/assets/admin')}}/css/theme.minc619.css?v=1.0">
+    <link rel="stylesheet" href="{{asset('assets')}}/admin/css/theme.minc619.css?v=1.0">
     @stack('css_or_js')
 
     <style>
@@ -43,8 +43,8 @@
     </style>
 
     <script
-        src="{{asset('public/assets/admin')}}/vendor/hs-navbar-vertical-aside/hs-navbar-vertical-aside-mini-cache.js"></script>
-    <link rel="stylesheet" href="{{asset('public/assets/admin')}}/css/toastr.css">
+        src="{{asset('assets')}}/admin/vendor/hs-navbar-vertical-aside/hs-navbar-vertical-aside-mini-cache.js"></script>
+    <link rel="stylesheet" href="{{asset('assets')}}/admin/css/toastr.css">
 </head>
 
 <body class="footer-offset">
@@ -55,7 +55,7 @@
         <div class="col-md-12">
             <div id="loading" style="display: none;">
                 <div style="position: fixed;z-index: 9999; left: 40%;top: 37% ;width: 100%">
-                    <img width="200" src="{{asset('public/assets/admin/img/loader.gif')}}">
+                    <img width="200" src="{{asset('assets')}}/admin/img/loader.gif'">
                 </div>
             </div>
         </div>
@@ -105,16 +105,16 @@
 <!-- ========== END MAIN CONTENT ========== -->
 
 <!-- ========== END SECONDARY CONTENTS ========== -->
-<script src="{{asset('public/assets/admin')}}/js/custom.js"></script>
+<script src="{{asset('assets')}}/admin/js/custom.js"></script>
 <!-- JS Implementing Plugins -->
 
 @stack('script')
 
 <!-- JS Front -->
-<script src="{{asset('public/assets/admin')}}/js/vendor.min.js"></script>
-<script src="{{asset('public/assets/admin')}}/js/theme.min.js"></script>
-<script src="{{asset('public/assets/admin')}}/js/sweet_alert.js"></script>
-<script src="{{asset('public/assets/admin')}}/js/toastr.js"></script>
+<script src="{{asset('assets')}}/admin/js/vendor.min.js"></script>
+<script src="{{asset('assets')}}/admin/js/theme.min.js"></script>
+<script src="{{asset('assets')}}/admin/js/sweet_alert.js"></script>
+<script src="{{asset('assets')}}/admin/js/toastr.js"></script>
 {!! Toastr::message() !!}
 
 @if ($errors->any())
@@ -248,7 +248,7 @@
 
 @stack('script_2')
 <audio id="myAudio">
-    <source src="{{asset('public/assets/admin/sound/notification.mp3')}}" type="audio/mpeg">
+    <source src="{{asset('assets/')}}/admin/sound/notification.mp3" type="audio/mpeg">
 </audio>
 
 <script>
@@ -329,7 +329,7 @@
 
 <!-- IE Support -->
 <script>
-    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="{{asset('public/assets/admin')}}/vendor/babel-polyfill/polyfill.min.js"><\/script>');
+    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="{{asset('assets')}}/admin/vendor/babel-polyfill/polyfill.min.js"><\/script>');
 </script>
 </body>
 </html>

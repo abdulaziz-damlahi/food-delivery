@@ -1,4 +1,3 @@
-@extends('layouts.branch.app')
 
 @section('title', \App\CentralLogics\translate('Order List'))
 

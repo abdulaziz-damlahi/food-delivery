@@ -15,11 +15,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
 
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="{{asset('public/assets/admin')}}/css/vendor.min.css">
-    <link rel="stylesheet" href="{{asset('public/assets/admin')}}/vendor/icon-set/style.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/admin/css/vendor.min.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/admin/vendor/icon-set/style.css">
 
     <!-- CSS Front Template -->
-    <link rel="stylesheet" href="{{asset('public/assets/admin')}}/css/theme.minc619.css?v=1.0">
+    <link rel="stylesheet" href="{{asset('assets')}}/admin/css/theme.minc619.css?v=1.0">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
         <div class="row align-items-sm-center w-100">
             <div class="col-sm-6">
                 <div class="text-center text-sm-right mr-sm-4 mb-5 mb-sm-0">
-                    <img class="w-60 w-sm-100 mx-auto" src="{{asset('public/assets/admin')}}/svg/illustrations/think.svg" alt="Image Description" style="max-width: 15rem;">
+                    <img class="w-60 w-sm-100 mx-auto" src="{{asset('assets')}}/admin/svg/illustrations/think.svg" alt="Image Description" style="max-width: 15rem;">
                 </div>
             </div>
 
@@ -57,7 +57,7 @@
 
 
 <!-- JS Front -->
-<script src="{{asset('public/assets/admin')}}/js/theme.min.js"></script>
+<script src="{{asset('assets')}}/admin/js/theme.min.js"></script>
 </body>
 
 </html>

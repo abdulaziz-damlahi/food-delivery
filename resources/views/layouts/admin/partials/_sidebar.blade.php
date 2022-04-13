@@ -9,10 +9,13 @@
                     @php($restaurant_logo=\App\Model\BusinessSetting::where(['key'=>'logo'])->first()->value)
                     <a class="navbar-brand" href="{{route('admin.dashboard')}}" aria-label="Front">
                     <img class="navbar-brand-logo" src="{{asset('storage/app/public/restaurant/'.$restaurant_logo)}}"
+                         onerror="this.src='{{asset('assets')}}/admin/img/160x160/img2.jpg'"
                          alt="Logo">
-                    <!--  onerror="this.src='{{asset('assets')}}/admin/img/160x160/img2.jpg'" -->
-                        <img class="navbar-brand-logo-mini" src="{{asset('storage/app/public/restaurant/'.$restaurant_logo)}}" alt="Logo">
-                    <!--  onerror="this.src='{{asset('assets')}}/admin/img/160x160/img2.jpg'" -->
+
+                        <img class="navbar-brand-logo-mini" src="{{asset('storage/app/public/restaurant/'.$restaurant_logo)}}"
+                             onerror="this.src='{{asset('assets')}}/admin/img/160x160/img2.jpg'"
+                             alt="Logo">
+
                     </a>
 
                     <!-- End Logo -->

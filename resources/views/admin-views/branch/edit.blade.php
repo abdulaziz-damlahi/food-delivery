@@ -105,8 +105,8 @@
                         </div>
                         <div class="text-center mt-2">
                             <img style="height: 200px;border: 1px solid; border-radius: 10px;" id="viewer"
-                                 src="{{asset('storage/app/public/branch')}}/{{$branch['image']}}"
-                                 onerror="this.src='{{asset('public/assets/admin/img/160x160/img1.jpg')}}'"
+                                 src="{{asset('storage')}}/app/public/branch/{{$branch['image']}}"
+                                 onerror="this.src='{{asset('assets')}}/admin/img/160x160/img1.jpg'"
                                  alt="branch image"/>
                         </div>
                     </div>

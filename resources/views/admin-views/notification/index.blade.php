@@ -39,7 +39,7 @@
                         <hr>
                         <center>
                             <img style="width: 30%;border: 1px solid; border-radius: 10px;" id="viewer"
-                                 src="{{asset('public/assets/admin/img/900x400/img1.jpg')}}" alt="image"/>
+                                 src="{{asset('assets')}}/admin/img/900x400/img1.jpg" alt="image"/>
                         </center>
                     </div>
                     <hr>
@@ -99,7 +99,7 @@
                                     <td>
                                         @if($notification['image']!=null)
                                             <img style="height: 75px"
-                                                 src="{{asset('storage/app/public/notification')}}/{{$notification['image']}}">
+                                                 src="{{asset('storage')}}/app/public/notification/{{$notification['image']}}">
                                         @else
                                             <label class="badge badge-soft-warning">No {{\App\CentralLogics\translate('image')}}</label>
                                         @endif

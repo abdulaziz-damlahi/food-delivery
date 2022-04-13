@@ -53,8 +53,8 @@
                                     </td>
                                     <td>
                                         <div style="height: 100px; width: 100px; overflow-x: hidden;overflow-y: hidden">
-                                            <img src="{{asset('storage/app/public/banner')}}/{{$banner['image']}}" style="width: 100px"
-                                                 onerror="this.src='{{asset('public/assets/admin/img/160x160/img2.jpg')}}'">
+                                            <img src="{{asset('storage')}}/app/public/banner/{{$banner['image']}}" style="width: 100px"
+                                                 onerror="this.src='{{asset('assets')}}/admin/img/160x160/img2.jpg'">
                                         </div>
                                     </td>
                                     <td>

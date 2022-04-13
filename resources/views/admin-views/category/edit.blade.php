@@ -95,8 +95,8 @@
                                                     <div class="form-group">
                                                         <div class="text-center">
                                                             <img style="height:170px;border: 1px solid; border-radius: 10px;" id="viewer"
-                                                                 onerror="this.src='{{asset('public/assets/admin/img/160x160/img1.jpg')}}'"
-                                                                 src="{{asset('storage/app/public/category')}}/{{$category['image']}}" alt="image" />
+                                                                 onerror="this.src='{{asset('assets')}}/admin/img/160x160/img1.jpg'"
+                                                                 src="{{asset('storage')}}/app/public/category/{{$category['image']}}" alt="image" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -115,8 +115,8 @@
                                                     <div class="form-group">
                                                         <div class="text-center">
                                                             <img style="height:170px;border: 1px solid; border-radius: 10px;" id="viewer2"
-                                                                 onerror="this.src='{{asset('public/assets/admin/img/900x400/img1.jpg')}}'"
-                                                                 src="{{asset('storage/app/public/category/banner')}}/{{$category['banner_image']}}" alt="image" />
+                                                                 onerror="this.src='{{asset('assets')}}/admin/img/900x400/img1.jpg'"
+                                                                 src="{{asset('storage')}}/app/public/category/banner/{{$category['banner_image']}}" alt="image" />
                                                         </div>
                                                     </div>
                                                 </div>

@@ -44,7 +44,7 @@
                     <div class="card mt-2 rest-part">
                         <div class="card-header">
                             <h4>{{\App\CentralLogics\translate('Import Products File')}}</h4>
-                            <a href="{{asset('public/assets/product_bulk_format.xlsx')}}" download=""
+                            <a href="{{asset('assets')}}/product_bulk_format.xlsx" download=""
                                class="btn btn-secondary">{{\App\CentralLogics\translate('Download Format')}}</a>
                         </div>
                         <div class="card-body">

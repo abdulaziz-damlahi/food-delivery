@@ -165,8 +165,8 @@
                                 <div class="avatar avatar-circle mr-3">
                                     <img
                                         class="avatar-img"
-                                        onerror="this.src='{{asset('public/assets/admin/img/160x160/img1.jpg')}}'"
-                                        src="{{asset('storage/app/public/profile/'.$customer->image)}}"
+                                        onerror="this.src='{{asset('assets')}}/admin/img/160x160/img1.jpg'"
+                                        src="{{asset('storage')}}/app/public/profile/'.$customer->image"
                                         alt="Image Description">
                                 </div>
                                 <div class="media-body">

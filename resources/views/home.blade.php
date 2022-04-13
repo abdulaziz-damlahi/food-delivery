@@ -8,7 +8,7 @@
                     <div class="card-body text-center">
                         @php($restaurant_logo=\App\Model\BusinessSetting::where(['key'=>'logo'])->first()->value)
                         <img class="" style="width: 200px!important"
-                             onerror="this.src='{{asset('public/assets/admin/img/160x160/img2.jpg')}}'"
+                             onerror="this.src='{{asset('assets')}}/admin/img/160x160/img2.jpg'"
                              src="{{asset('storage/app/public/restaurant/'.$restaurant_logo)}}"
                              alt="Logo">
                         <br><hr>

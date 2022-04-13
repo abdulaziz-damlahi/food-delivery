@@ -172,7 +172,7 @@
         });
     </script>
 
-    <script src="{{asset('public/assets/admin/js/spartan-multi-image-picker.js')}}"></script>
+    <script src="{{asset('assets')}}/admin/js/spartan-multi-image-picker.js"></script>
     <script type="text/javascript">
         $(function () {
             $("#coba").spartanMultiImagePicker({
@@ -182,7 +182,7 @@
                 groupClassName: 'col-2',
                 maxFileSize: '',
                 placeholderImage: {
-                    image: '{{asset('public/assets/admin/img/400x400/img2.jpg')}}',
+                    image: '{{asset('assets')}}/admin/img/400x400/img2.jpg',
                     width: '100%'
                 },
                 dropFileLabel: "Drop Here",

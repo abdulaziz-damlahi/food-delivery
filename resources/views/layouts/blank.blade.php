@@ -18,14 +18,14 @@
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
     <!-- CSS Implementing Plugins -->
-    <link rel="stylesheet" href="public/assets/admin/css/vendor.min.css">
-    <link rel="stylesheet" href="public/assets/admin/vendor/icon-set/style.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/admin/css/vendor.min.css">
+    <link rel="stylesheet" href="{{asset('assets')}}/admin/vendor/icon-set/style.css">
     <!-- CSS Front Template -->
-    <link rel="stylesheet" href="public/assets/admin/css/theme.minc619.css?v=1.0">
+    <link rel="stylesheet" href="{{asset('assets')}}/admin/css/theme.minc619.css?v=1.0">
     @stack('css_or_js')
     <script
-        src="public/assets/admin/vendor/hs-navbar-vertical-aside/hs-navbar-vertical-aside-mini-cache.js"></script>
-    <link rel="stylesheet" href="public/assets/admin/css/toastr.css">
+        src="{{asset('assets')}}/admin/vendor/hs-navbar-vertical-aside/hs-navbar-vertical-aside-mini-cache.js"></script>
+    <link rel="stylesheet" href="{{asset('assets')}}/admin/css/toastr.css">
 </head>
 <!-- Body-->
 <body class="toolbar-enabled">
@@ -36,7 +36,7 @@
         <div class="col-md-12">
             <div id="loading" style="display: none;">
                 <div style="position: fixed;z-index: 9999; left: 40%;top: 37% ;width: 100%">
-                    <img width="200" src="public/assets/front-end/img/loader.gif">
+                    <img width="200" src="{{asset('assets')}}/admin/front-end/img/loader.gif">
                 </div>
             </div>
         </div>
@@ -48,15 +48,15 @@
 @yield('content')
 
 <!-- Vendor scrits: js libraries and plugins-->
-{{--<script src="public/assets/front-end/vendor/jquery/dist/jquery.slim.min.js"></script>--}}
-<script src="public/assets/admin/js/demo.js"></script>
+{{--<script src="{{asset('assets')}}/admin/front-end/vendor/jquery/dist/jquery.slim.min.js"></script>--}}
+<script src="{{asset('assets')}}/admin/js/demo.js"></script>
 <!-- JS Implementing Plugins -->
 
 <!-- JS Front -->
-<script src="public/assets/admin/js/vendor.min.js"></script>
-<script src="public/assets/admin/js/theme.min.js"></script>
-<script src="public/assets/admin/js/sweet_alert.js"></script>
-<script src="public/assets/admin/js/toastr.js"></script>
+<script src="{{asset('assets')}}/admin/js/vendor.min.js"></script>
+<script src="{{asset('assets')}}/admin/js/theme.min.js"></script>
+<script src="{{asset('assets')}}/admin/js/sweet_alert.js"></script>
+<script src="{{asset('assets')}}/admin/js/toastr.js"></script>
 {{--{!! Toastr::message() !!}
 
 @if ($errors->any())

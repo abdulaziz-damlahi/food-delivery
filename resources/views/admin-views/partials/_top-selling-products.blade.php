@@ -20,7 +20,7 @@
                         <center class="mt-4">
                             <img style="height: 90px"
                                  src="{{ asset('storage/app/public/product').'/'.$item->product->image  ?? '' }}"
-                                 onerror="this.src='{{asset('public/assets/admin/img/400x400/img2.jpg')}}'"
+                                 onerror="this.src='{{asset('assets')}}/admin/img/400x400/img2.jpg'"
                                  alt="{{$item->product->name}} image">
                         </center>
                         <div class="text-center mt-2">

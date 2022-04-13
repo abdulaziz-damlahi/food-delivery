@@ -28,7 +28,7 @@
         <tr>
             <td colspan="5">
                 <div class="text-center p-4">
-                    <img class="mb-3" src="{{asset('public/assets/admin')}}/svg/illustrations/sorry.svg" alt="Image Description" style="width: 7rem;">
+                    <img class="mb-3" src="{{asset('assets')}}/admin/svg/illustrations/sorry.svg" alt="Image Description" style="width: 7rem;">
                     <p class="mb-0">No data to show</p>
                 </div>
             </td>
@@ -79,7 +79,7 @@
         },
         language: {
             zeroRecords: '<div class="text-center p-4">' +
-                '<img class="mb-3" src="{{asset('public/assets/admin')}}/svg/illustrations/sorry.svg" alt="Image Description" style="width: 7rem;">' +
+                '<img class="mb-3" src="{{asset('assets')}}/admin/svg/illustrations/sorry.svg" alt="Image Description" style="width: 7rem;">' +
                 '<p class="mb-0">No data to show</p>' +
                 '</div>'
         }

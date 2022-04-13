@@ -54,8 +54,8 @@
                                 </div>
                                 <div class="text-center mt-3">
                                     <img style="width: 100%;height:auto;border: 1px solid; border-radius: 10px;" id="viewer"
-                                         src="{{asset('storage/app/public/banner')}}/{{$banner['image']}}"
-                                         onerror="this.src='{{asset('public/assets/admin/img/1920x400/img2.jpg')}}'"
+                                         src="{{asset('storage')}}/app/public/banner/{{$banner['image']}}"
+                                         onerror="this.src='{{asset('assets')}}/admin/img/1920x400/img2.jpg'"
                                          alt="banner image"/>
                                 </div>
                             </div>

@@ -11,7 +11,7 @@
         <div class="avatar avatar-lg avatar-circle m-md-0 m-1">
             <img class="avatar-img" style="width: 54px;height: 54px"
                  src="{{asset('storage/app/public/profile/'.$user['image'])}}"
-                 onerror="this.src='{{asset('public/assets/admin')}}/img/160x160/img1.jpg'"
+                 onerror="this.src='{{asset('assets')}}/admin/img/160x160/img1.jpg'"
                  alt="Image Description">
         </div>
         <h5 class="mb-0 mr-md-3 mr-1">{{$user['f_name'].' '.$user['l_name']}}</h5>
@@ -34,7 +34,7 @@
                                     <img style="width:100%; border-radius: 5px"
                                          class="p-1"
                                          src="{{$image}}"
-                                         onerror="this.src='{{asset('public/assets/admin/img/900x400/img1.jpg')}}'">
+                                         onerror="this.src='{{asset('assets')}}/admin/img/900x400/img1.jpg'">
                                     <br/>
                                 @endforeach
                             @endif
@@ -60,7 +60,7 @@
                                             <img style="width:100%; border-radius: 5px"
                                                  class="p-1"
                                                  src="{{asset('storage/app/public/conversation').'/'.$image_url}}"
-                                                 onerror="this.src='{{asset('public/assets/admin/img/900x400/img1.jpg')}}'"><br/>
+                                                 onerror="this.src='{{asset('assets')}}/admin/img/900x400/img1.jpg'"><br/>
                                         </div>
                                     @endforeach
                                 @endif
@@ -133,8 +133,8 @@
 
 
 </script>
-<script src="{{asset('public/assets/admin')}}/js/tags-input.min.js"></script>
-<script src="{{asset('public/assets/admin/js/spartan-multi-image-picker.js')}}"></script>
+<script src="{{asset('assets')}}/admin/js/tags-input.min.js"></script>
+<script src="{{asset('assets')}}/admin/js/spartan-multi-image-picker.js"></script>
 <script>
     function spartanMultiImagePicker() {
         document.querySelector("#coba").innerHTML = "";
@@ -146,7 +146,7 @@
             groupClassName: 'col-3',
             maxFileSize: '',
             {{--placeholderImage: {--}}
-                {{--    image: '{{asset('public/assets/back-end/img/400x400/img2.jpg')}}',--}}
+                {{--    image: '{{asset('assets')}}/back-end/img/400x400/img2.jpg',--}}
                 {{--    width: '100%',--}}
                 {{--},--}}
             dropFileLabel: "Drop Here",

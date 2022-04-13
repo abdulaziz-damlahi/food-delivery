@@ -99,7 +99,7 @@
                         </div>
                         <div class="text-center mt-2">
                             <img style="height: 200px;border: 1px solid; border-radius: 10px;" id="viewer"
-                                 src="{{asset('public/assets/admin/img/400x400/img2.jpg')}}" alt="branch image"/>
+                                 src="{{asset('assets')}}/admin/img/400x400/img2.jpg" alt="branch image"/>
                         </div>
                     </div>
 
@@ -149,8 +149,8 @@
                                     <td>{{$branches->firstItem()+$key}}</td>
                                     <td>
                                         <img class="" height="60px" width="60px"
-                                             onerror="this.src='{{asset('public/assets/admin/img/160x160/img2.jpg')}}'"
-                                             src="{{asset('storage/app/public/branch')}}/{{$branch['image']}}">
+                                             onerror="this.src='{{asset('assets')}}/admin/img/160x160/img2.jpg'"
+                                             src="{{asset('storage')}}/app/public/branch/{{$branch['image']}}">
                                     </td>
                                     <td>
                                     <span class="d-block font-size-sm text-body">

@@ -13,7 +13,7 @@
             <div class="avatar avatar-lg avatar-circle">
                 <img class="avatar-img" style="width: 54px;height: 54px"
                      src="{{asset('storage/app/public/profile/'.$user['image'])}}"
-                     onerror="this.src='{{asset('public/assets/admin')}}/img/160x160/img1.jpg'"
+                     onerror="this.src='{{asset('assets')}}/admin/img/160x160/img1.jpg'"
                      alt="Image Description">
             </div>
             <h5 class="sidebar_name mb-0 mr-3 d-none d-md-block">
