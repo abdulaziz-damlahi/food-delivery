@@ -892,4 +892,9 @@
   'Invalid date range!' => 'Invalid date range!',
   'Product Report' => 'Product Report',
   'Sale Report' => 'Sale Report',
+  'Update delivery-man' => 'Update delivery-man',
+  'update Deliveryman' => 'Update Deliveryman',
+  'images' => 'Images',
+  'Sub Category Added Successfully!' => 'Sub Category Added Successfully!',
+  'Sub Category updated successfully!' => 'Sub Category updated successfully!',
 );

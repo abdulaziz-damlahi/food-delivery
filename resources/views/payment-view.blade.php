@@ -320,7 +320,7 @@
                             <div class="card">
                                 <div class="card-body" style="height: 70px">
                                     <button class="btn btn-block click-if-alone" id="bKash_button" onclick="BkashPayment()">
-                                        <img width="100" src="{{asset('assets')}}/admin/img/bkash.png')}}"/>
+                                        <img width="100" src="{{asset('assets')}}/admin/img/bkash.png"/>
                                     </button>
                                 </div>
                             </div>
@@ -338,7 +338,7 @@
                                           action="{{route('paymob-credit')}}">
                                         {{ csrf_field() }}
                                         <button class="btn btn-block click-if-alone">
-                                            <img width="100" src="{{asset('assets')}}/admin/img/paymob.png')}}"/>
+                                            <img width="100" src="{{asset('assets')}}/admin/img/paymob.png"/>
                                         </button>
                                     </form>
                                 </div>
@@ -353,7 +353,7 @@
                                 <div class="card-body pt-2" style="height: 70px">
                                     <button class="btn btn-block click-if-alone" onclick="location.href='{{route('mercadopago.index')}}'">
                                         <img width="150"
-                                             src="{{asset('assets')}}/admin/img/MercadoPago_(Horizontal).svg')}}"/>
+                                             src="{{asset('assets')}}/admin/img/MercadoPago_(Horizontal).svg"/>
                                     </button>
                                 </div>
                             </div>
@@ -370,7 +370,7 @@
 
                                         <button class="btn btn-block click-if-alone" type="submit">
                                             <img width="200"
-                                                 src="{{asset('assets')}}/admin/img/fluterwave.png')}}"/>
+                                                 src="{{asset('assets')}}/admin/img/fluterwave.png"/>
                                         </button>
                                     </form>
                                 </div>

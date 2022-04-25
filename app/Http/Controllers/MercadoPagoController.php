@@ -63,6 +63,7 @@ class MercadoPagoController extends Controller
         if($payment->status == 'approved')
         {
             $order = Order::where(['id' => session('order_id'), 'user_id'=>session('customer_id')])->first();
+            return  $order ; 
             try {
                 $order->transaction_reference = $payment->id;
                 $order->payment_method = 'mercadopago';

@@ -85,10 +85,11 @@
                             class="avatar avatar-xxl avatar-circle avatar-border-lg avatar-uploader profile-cover-avatar"
                             for="avatarUploader">
                             <img id="viewer"
-                                 onerror="this.src='{{asset('public/assets/admin/img/160x160/img1.jpg')}}'"
+                                 onerror="this.src='{{asset('assets')}}/admin/img/160x160/img1.jpg'"
                                  class="avatar-img"
-                                 src="{{asset('storage/app/public/admin')}}/{{auth('admin')->user()->image}}"
-                                 alt="Image">
+
+                          src='{{asset('/storage/')}}/app/public/admin/{{auth('admin')->user()->image}}' >
+
 
                             <input type="file" name="image" class="js-file-attach avatar-uploader-input"
                                    id="customFileEg1"

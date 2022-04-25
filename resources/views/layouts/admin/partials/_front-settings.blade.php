@@ -37,7 +37,7 @@
                                    id="layoutSkinsRadio1" checked value="default">
                             <label class="custom-checkbox-card-label" for="layoutSkinsRadio1">
                                 <img class="custom-checkbox-card-img"
-                                     src="{{asset('assets')}}/admin"
+                                         src="{{asset('assets')}}/admin/img/160x160/img1.jpg"
                                      alt="Image Description">
                             </label>
                             <span class="custom-checkbox-card-text">Default</span>
@@ -54,7 +54,7 @@
                                    id="layoutSkinsRadio2" value="navbar-dark">
                             <label class="custom-checkbox-card-label" for="layoutSkinsRadio2">
                                 <img class="custom-checkbox-card-img"
-                                     src="{{asset('assets')}}/admin"
+                                         src="{{asset('assets')}}/admin/img/160x160/img1.jpg"
                                      alt="Image Description">
                             </label>
                             <span class="custom-checkbox-card-text">Dark</span>
@@ -71,7 +71,7 @@
                                    id="layoutSkinsRadio3" value="navbar-light">
                             <label class="custom-checkbox-card-label" for="layoutSkinsRadio3">
                                 <img class="custom-checkbox-card-img"
-                                     src="{{asset('assets')}}/admin"
+                                         src="{{asset('assets')}}/admin/img/160x160/img1.jpg"
                                      alt="Image Description">
                             </label>
                             <span class="custom-checkbox-card-text">Light</span>
@@ -94,7 +94,7 @@
                                    id="sidebarLayoutOptions1" checked value="default">
                             <label class="custom-checkbox-card-label" for="sidebarLayoutOptions1">
                                 <img class="custom-checkbox-card-img"
-                                     src="{{asset('assets')}}/admin"
+                                         src="{{asset('assets')}}/admin/img/160x160/img1.jpg"
                                      alt="Image Description">
                             </label>
                             <span class="custom-checkbox-card-text">Default</span>
@@ -111,7 +111,7 @@
                                    id="sidebarLayoutOptions2" value="navbar-vertical-aside-compact-mode">
                             <label class="custom-checkbox-card-label" for="sidebarLayoutOptions2">
                                 <img class="custom-checkbox-card-img"
-                                     src="{{asset('assets')}}/admin"
+                                         src="{{asset('assets')}}/admin/img/160x160/img1.jpg"
                                      alt="Image Description">
                             </label>
                             <span class="custom-checkbox-card-text">Compact</span>
@@ -128,7 +128,8 @@
                                    id="sidebarLayoutOptions3" value="navbar-vertical-aside-mini-mode">
                             <label class="custom-checkbox-card-label" for="sidebarLayoutOptions3">
                                 <img class="custom-checkbox-card-img"
-                                     src="{{asset('assets')}}/admin"
+                                         src="{{asset('assets')}}/admin/img/160x160/img1.jpg"
+
                                      alt="Image Description">
                             </label>
                             <span class="custom-checkbox-card-text">Mini</span>
@@ -151,7 +152,7 @@
                                    id="headerLayoutOptions1" value="single">
                             <label class="custom-checkbox-card-label" for="headerLayoutOptions1">
                                 <img class="custom-checkbox-card-img"
-                                     src="{{asset('assets')}}/admin"
+                                         src="{{asset('assets')}}/admin/img/160x160/img1.jpg"
                                      alt="Image Description">
                             </label>
                             <span class="custom-checkbox-card-text">Default (Fluid)</span>
@@ -168,7 +169,7 @@
                                    id="headerLayoutOptions2" value="single-container">
                             <label class="custom-checkbox-card-label" for="headerLayoutOptions2">
                                 <img class="custom-checkbox-card-img"
-                                     src="{{asset('assets')}}/admin"
+                                         src="{{asset('assets')}}/admin/img/160x160/img1.jpg"
                                      alt="Image Description">
                             </label>
                             <span class="custom-checkbox-card-text">Default (Container)</span>
@@ -185,7 +186,7 @@
                                    id="headerLayoutOptions3" value="double">
                             <label class="custom-checkbox-card-label" for="headerLayoutOptions3">
                                 <img class="custom-checkbox-card-img"
-                                     src="{{asset('assets')}}/admin"
+                                         src="{{asset('assets')}}/admin/img/160x160/img1.jpg"
                                      alt="Image Description">
                             </label>
                             <span class="custom-checkbox-card-text">Double line (Fluid)</span>
@@ -202,7 +203,7 @@
                                    id="headerLayoutOptions4" value="double-container">
                             <label class="custom-checkbox-card-label" for="headerLayoutOptions4">
                                 <img class="custom-checkbox-card-img"
-                                     src="{{asset('assets')}}/admin"
+                                         src="{{asset('assets')}}/admin/img/160x160/img1.jpg"
                                      alt="Image Description">
                             </label>
                             <span class="custom-checkbox-card-text">Double line (Container)</span>

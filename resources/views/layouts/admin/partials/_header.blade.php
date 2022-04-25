@@ -8,10 +8,10 @@
                 <a class="navbar-brand" href="{{route('admin.dashboard')}}" aria-label="">
                     <img class="navbar-brand-logo"
                          onerror="this.src='{{asset('assets')}}/admin/img/160x160/img1.jpg'"
-                         src="storage/app/public/restaurant/$restaurant_logo" alt="Logo">
+                         src=" " alt="Logo">
                     <img class="navbar-brand-logo-mini"
                          onerror="this.src='{{asset('assets')}}/admin/img/160x160/img1.jpg'"
-                         src="storage/app/public/restaurant/$restaurant_logo"
+                         src=" "
                          alt="Logo">
                 </a>
                 <!-- End Logo -->
@@ -39,10 +39,10 @@
                             <a class="js-hs-unfold-invoker btn btn-icon btn-ghost-secondary rounded-circle"
                                href="{{route('admin.message.list')}}">
                                 <i class="tio-messages-outlined"></i>
-{{--                                @php($message=\App\Model\Conversation::where('checked',0)->count())--}}
-{{--                                @if($message!=0)--}}
-{{--                                    <span class="btn-status btn-sm-status btn-status-danger"></span>--}}
-{{--                                @endif--}}
+                                {{--                                @php($message=\App\Model\Conversation::where('checked',0)->count())--}}
+                                {{--                                @if($message!=0)--}}
+                                {{--                                    <span class="btn-status btn-sm-status btn-status-danger"></span>--}}
+                                {{--                                @endif--}}
                             </a>
                         </div>
                         <!-- End Notification -->
@@ -72,7 +72,7 @@
                                 <div class="avatar avatar-sm avatar-circle">
                                     <img class="avatar-img"
                                          onerror="this.src='{{asset('assets')}}/admin/img/160x160/img1.jpg'"
-                                         src="storage/app/public/admin/{{auth('admin')->user()->image}}"
+                                         src=" "
                                          alt="Image Description">
                                     <span class="avatar-status avatar-sm-status avatar-status-success"></span>
                                 </div>
@@ -86,7 +86,7 @@
                                         <div class="avatar avatar-sm avatar-circle mr-2">
                                             <img class="avatar-img"
                                                  onerror="this.src='{{asset('assets')}}/admin/img/160x160/img1.jpg'"
-                                                 src="storage/app/public/admin/{{auth('admin')->user()->image}}"
+                                                 src=" "
                                                  alt="Image Description">
                                         </div>
                                         <div class="media-body">
