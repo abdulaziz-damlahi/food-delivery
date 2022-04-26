@@ -351,7 +351,7 @@
                         <div class="col-md-6 mb-4" style="cursor: pointer">
                             <div class="card">
                                 <div class="card-body pt-2" style="height: 70px">
-                                    <button class="btn btn-block click-if-alone" onclick="location.href='{{route('mercadopago.index')}}'">
+                                    <button class="btn btn-block click-if-alone" onclick="location.href='{{route('iyzico.index')}}'">
                                         <img width="150"
                                              src="{{asset('assets')}}/admin/img/MercadoPago_(Horizontal).svg"/>
                                     </button>

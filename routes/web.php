@@ -118,9 +118,10 @@ Route::post('/paymob-credit', 'PaymobController@credit')->name('paymob-credit');
 Route::get('/paymob-callback', 'PaymobController@callback')->name('paymob-callback');
 
 // The callback url after a payment
-Route::get('mercadopago/home', 'MercadoPagoController@index')->name('mercadopago.index');
+Route::get('iyzico/home', 'MercadoPagoController@index')->name('iyzico.index');
 Route::post('mercadopago/make-payment', 'MercadoPagoController@make_payment')->name('mercadopago.make_payment');
 Route::get('mercadopago/get-user', 'MercadoPagoController@get_test_user')->name('mercadopago.get-user');
+Route::post('/checkout', 'MercadoPagoController@checkout')->name('iyzico.checkout');
 
 // The route that the button calls to initialize payment
 Route::post('/flutterwave-pay','FlutterwaveController@initialize')->name('flutterwave_pay');
