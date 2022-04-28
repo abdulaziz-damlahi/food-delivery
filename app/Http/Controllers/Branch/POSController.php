@@ -20,13 +20,15 @@ class POSController extends Controller
 {
     public function index(Request $request)
     {
+
         $category = $request->query('category_id', 0);
+
         $categories = Category::active()->get();
+
         $keyword = $request->keyword;
         $key = explode(' ', $keyword);
 
-        $products = Product::
-        when($request->has('category_id') && $request['category_id'] != 0, function ($query) use ($request) {
+        $products = Product::when($request->has('category_id') && $request['category_id'] != 0, function ($query) use ($request) {
             $query->whereJsonContains('category_ids', [['id' => (string)$request['category_id']]]);
         })
             ->when($keyword, function ($query) use ($key) {
@@ -39,6 +41,7 @@ class POSController extends Controller
             ->active()->latest()->paginate(Helpers::getPagination());
 
         $branch = Branch::find(auth('branch')->id());
+
         return view('branch-views.pos.index', compact('categories', 'products', 'category', 'keyword', 'branch'));
     }
 

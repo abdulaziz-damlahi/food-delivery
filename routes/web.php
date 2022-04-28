@@ -119,8 +119,8 @@ Route::get('/paymob-callback', 'PaymobController@callback')->name('paymob-callba
 
 // The callback url after a payment
 Route::get('iyzico/home', 'MercadoPagoController@index')->name('iyzico.index');
-Route::post('mercadopago/make-payment', 'MercadoPagoController@make_payment')->name('mercadopago.make_payment');
-Route::get('mercadopago/get-user', 'MercadoPagoController@get_test_user')->name('mercadopago.get-user');
+Route::post('checkout/make-payment', 'MercadoPagoController@make_payment')->name('checkout.make_payment');
+Route::get('checkout/get-user', 'MercadoPagoController@get_test_user')->name('checkout.get-user');
 Route::post('/checkout', 'MercadoPagoController@checkout')->name('iyzico.checkout');
 
 // The route that the button calls to initialize payment

@@ -21,6 +21,7 @@ class POSController extends Controller
 {
     public function index(Request $request)
     {
+
         $category = $request->query('category_id', 0);
         $categories = Category::active()->get();
         $keyword = $request->keyword;
